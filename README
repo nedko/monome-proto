@@ -1,0 +1,3 @@
+This repo represents a project that aims to document the low-level protocols used by
+monome and monome-like devices. The project also aims to provide definitions of
+C structures that can be used for implementing protocol encoders and decoders.
