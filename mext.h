@@ -25,6 +25,10 @@
 
 #define _mext_packed_ __attribute__ ((packed))
 
+#define MEXT_HEADER(section, command) (section << 4 | command)
+#define MEXT_SECTION(header) (header >> 4)
+#define MEXT_COMMAND(header) (header & 0xF)
+
 #define MEXT_SECTION_SYSTEM      0x0
 #define MEXT_SECTION_LED_GRID    0x1
 #define MEXT_SECTION_KEY_GRID    0x2
