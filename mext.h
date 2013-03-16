@@ -93,6 +93,10 @@
 #define MEXT_RESPONSE_SYSTEM_VERSION        0xF
 #define MEXT_RESPONSE_SYSTEM_VERSION_PAYLOAD_SIZE 8
 
+#define MEXT_RESPONSE_KEY_UP   0x0
+#define MEXT_RESPONSE_KEY_UP_PAYLOAD_SIZE 2
+#define MEXT_RESPONSE_KEY_DOWN 0x1
+#define MEXT_RESPONSE_KEY_DOWN_PAYLOAD_SIZE 2
 
 struct mext_packet_payload_command_system_set_id
 {
