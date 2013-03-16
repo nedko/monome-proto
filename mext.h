@@ -132,12 +132,6 @@ struct mext_packet_payload_response_system_addr
   uint8_t type;
 } _mext_packed_;
 
-struct mext_packet_payload_response_system_addr
-{
-  uint8_t addr;
-  uint8_t type;
-} _mext_packed_;
-
 struct mext_packet_payload_response_system_version
 {
   uint8_t version[8];
