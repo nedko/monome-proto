@@ -72,11 +72,6 @@
 #define MEXT_RESPONSE_SYSTEM_VERSION        0xF
 #define MEXT_RESPONSE_SYSTEM_VERSION_PAYLOAD_SIZE 8
 
-struct mext_packet_header
-{
-  uint8_t section:4;
-  uint8_t command:4;
-} _mext_packed_;
 
 struct mext_packet_payload_command_system_set_id
 {
